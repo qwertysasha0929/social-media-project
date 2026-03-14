@@ -1,0 +1,57 @@
+body{
+font-family: 'Segoe UI', Arial, sans-serif;
+margin:0;
+background:#f4f6fb;
+color:#222;
+line-height:1.6;
+}
+
+header{
+background:#1e2a78;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav{
+background:#2f3fb5;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+text-decoration:underline;
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:30px;
+}
+
+.card{
+background:white;
+padding:25px;
+margin:20px 0;
+border-radius:10px;
+box-shadow:0 5px 10px rgba(0,0,0,0.1);
+}
+
+h1,h2{
+color:#1e2a78;
+}
+
+footer{
+background:#1e2a78;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
