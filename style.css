@@ -1,26 +1,27 @@
 body{
-font-family: 'Segoe UI', Arial, sans-serif;
+font-family:'Segoe UI', Arial, sans-serif;
 margin:0;
-background:#eef1f7;
+background:#f4f6fb;
 color:#222;
 line-height:1.7;
 }
 
 header{
-background:linear-gradient(90deg,#1e2a78,#3c4bd6);
+background:#3c4bd6;
 color:white;
 padding:30px;
 text-align:center;
 }
 
 nav{
-background:#2f3fb5;
+background:#e6e9ff;
 padding:12px;
 text-align:center;
+border-bottom:1px solid #ccc;
 }
 
 nav a{
-color:white;
+color:#1e2a78;
 margin:15px;
 text-decoration:none;
 font-weight:bold;
@@ -41,38 +42,26 @@ padding:30px;
 background:white;
 padding:30px;
 margin:25px 0;
-border-radius:12px;
-box-shadow:0 8px 20px rgba(0,0,0,0.08);
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
 }
 
-h1,h2{
+h1{
+color:white;
+}
+
+h2{
 color:#1e2a78;
 }
 
-.stat{
-font-size:32px;
-font-weight:bold;
-color:#3c4bd6;
-}
-
-button{
-background:#3c4bd6;
-color:white;
-border:none;
-padding:12px 20px;
-border-radius:6px;
-font-size:16px;
-cursor:pointer;
-}
-
-button:hover{
-background:#2f3fb5;
+p{
+color:#333;
 }
 
 footer{
-background:#1e2a78;
+background:#3c4bd6;
 color:white;
 text-align:center;
-padding:25px;
+padding:20px;
 margin-top:40px;
 }
